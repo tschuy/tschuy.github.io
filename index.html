@@ -28,19 +28,27 @@
         <div id="projects" class="mainContent homeContent">
         <br><span class="heading">Projects</span><br>
             <div class="projectBox">
-                <a href="#img1"><img class="img" src="soilfinder/soilfinder_small.png"></a>
+                <a href="#img1"><img class="img_right" src="static/soilfinder_small.png"></a>
                 <span class="subHeading">Soil Finder</span>
                 <p>Want to learn about the soils beneath your feet? Soil Finder uses <a href="http://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/?cid=nrcs142p2_053627">NRCS data</a>, hosted by <a href="http://casoilresource.lawr.ucdavis.edu/soilweb/">UC Davis</a> to show you the soils below almost any point in the United States. </p>
                 <p>Soil Finder uses the Google Maps API for Android to allow a user to tap on a map to choose the location, and the Google Geocoding API to allow a user to enter an address or place name.</p>
                 <p>You can try out Soil Finder on any Android device running Android 4.0 and up by downloading the latest build <a href="/uploads/SoilFinder-unsigned.apk">from here.</a></p>
 
+                <hr>
+
+                <a href="#img2"><img class="img_left" src="static/reddit_small.png"></a>
+                <span class="subHeading">Reddit Slideshow</span>
+                <p>An image browser app written in Python and Flask. Browse subreddits as image galleries and slideshows in a clean interface that allows you to focus on the picture, not on the surrounding noise.</p>
+                <p>This webapp parses the Reddit JSON API to find the top image links per week of a given subreddit. It then randomly chooses one on each page load and serves it to the user.</p>
+
+                <p>Ex: <a href="http://reddit.tschuy.com/itookapicture?timer=10">/r/ITookAPicture with 10-second slideshow</a></p>
             </div>
         </div>
 
         <div id="about" class="mainContent homeContent">
         <br><span class="heading">About</span><br>
             <div class="projectBox">
-                <img class="img" src="tschuy.png">
+                <img class="img_right" src="static/tschuy.png">
                 <p>Evan Tschuy is a freshman in Computer Science at Oregon State University.</p>
                 <p>His projects can be found on <a href="https://github.com/tschuy">GitHub</a>, and he can be reached via <a href="mailto:tschuye@onid.oregonstate.edu">email</a>.</p>
 
@@ -50,22 +58,23 @@
         <!-- don't touch these! -->
         <div id="buttons">
                 <div class="content1">
-                <a href="mailto:tschuye@onid.oregonstate.edu"><div class="link"><img src="email.png" alt="Email"></div></a></div>
+                <a href="mailto:tschuye@onid.oregonstate.edu"><div class="link"><img src="static/email.png" alt="Email"></div></a></div>
 
                 <div class="content2">
-                <a href="https://www.facebook.com/evantschuy"><div class="link"><img src="facebook.png" alt="Facebook"></div></a></div>
+                <a href="https://www.facebook.com/evantschuy"><div class="link"><img src="static/facebook.png" alt="Facebook"></div></a></div>
 
                 <div class="content3">
-                <a href="https://twitter.com/tschuye"><div class="link"><img src="twitter.png" alt="Twitter"></div></a></div>
+                <a href="https://twitter.com/tschuye"><div class="link"><img src="static/twitter.png" alt="Twitter"></div></a></div>
 
                 <div class="content4">
-                <a href="http://github.com/tschuy"><div class="link"><img src="github.png" alt="Github"></div></a></div>
+                <a href="http://github.com/tschuy"><div class="link"><img src="static/github.png" alt="Github"></div></a></div>
 
             <span class="stretch"></span>
         </div>
 
     </div>
 
-    <a href="#_" class="lightbox" id="img1"><img src="soilfinder/soilfinder_large.png"></a>
+    <a href="#_" class="lightbox" id="img1"><img src="static/soilfinder_large.png"></a>
+    <a href="#_" class="lightbox" id="img2"><img src="static/reddit_large.png"></a>
 </body>
 </html>

@@ -37,7 +37,7 @@ body {
 	-ms-text-justify: distribute-all-lines;
 	text-justify: distribute-all-lines;
     margin-bottom: 30px;
-} 
+}
 
 #projects {
     margin-top: 3px;
@@ -55,12 +55,19 @@ body {
 }
 
 .subHeading {
+    font-size: 1.05em;
     left: 30px;
 }
 
-.img {
+.img_right {
     float: right;
     margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.img_left {
+    float: left;
+    margin-right: 20px;
     margin-bottom: 20px;
 }
 
