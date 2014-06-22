@@ -137,6 +137,28 @@ body {
 	display: inline-block;
 }
 
+/* mobile/small screen settings */
+
+@media only screen and (max-width: 760px) {
+  #header {
+      position: relative;
+      color: #FFFFFF;
+      height: 75px;
+      background-color: #da532c;
+      margin-bottom: 3em;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 75px;
+      font-size: 36px;
+  }
+  .content1, .content2, .content3, .content4 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+}
+
 /* Lightbox styling */
 
 /*************************************
