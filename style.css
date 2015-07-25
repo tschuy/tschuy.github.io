@@ -56,7 +56,7 @@ body {
 }
 
 .subHeading {
-    font-size: 1.05em;
+    font-size: 1.10em;
     left: 30px;
 }
 
@@ -75,6 +75,7 @@ body {
 .heading {
     padding-top: 30px;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .mainContent {
