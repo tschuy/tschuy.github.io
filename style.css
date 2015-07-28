@@ -49,6 +49,12 @@ body {
     top: -30px;
     margin-bottom: 30px;
 }
+
+#work {
+    top: -30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
 /* Content div settings */
 
 .projectBox {
@@ -149,7 +155,7 @@ body {
       background-color: #da532c;
       margin-bottom: 3em;
       text-align: center;
-      vertical-align: middle;
+      vertical-align: middle;7
       line-height: 75px;
       font-size: 36px;
   }
